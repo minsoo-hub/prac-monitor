@@ -14,4 +14,6 @@ management:
   endpoint:
     health:
       show-details: always
+    prometheus:
+      access: unrestricted   # unrestricted(무제한 접근(기본 값, enable = true), none(접근 제한, enable = false), read_only(읽기 전용 접근, Get 요청만 허용))
 
